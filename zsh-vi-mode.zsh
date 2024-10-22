@@ -1826,7 +1826,7 @@ function zvm_range_handler() {
   case "${keys}" in
     c*) zvm_vi_change false; cursor=;;
     d*) zvm_vi_delete false; cursor=;;
-    y*) zvm_vi_yank false; cursor=;;
+    y*) my_zvm_vi_yank false; cursor=;;
     [vV]*) cursor=;;
   esac
 
